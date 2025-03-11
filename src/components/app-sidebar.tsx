@@ -11,7 +11,7 @@ import {
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
 
-const items = [
+export const items = [
     {
         title: "Home",
         url: "#",
