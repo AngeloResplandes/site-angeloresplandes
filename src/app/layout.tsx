@@ -35,9 +35,9 @@ export default function RootLayout({
             >
                 <SidebarProvider>
                     <AppSidebar />
-                    <main className="w-[100vw]">
-                        <Card className="flex flex-row justify-between 
-                        items-center h-[60px] px-[16px] md:px-[50px] py-[0px] border-b">
+                    <main className="h-[100vh] w-[100vw]">
+                        <Card className="w-full flex flex-row justify-between items-center 
+                        fixed h-[60px] px-[16px] md:px-[50px] py-[0px] border-b z-50">
                             <SidebarTrigger />
                             <h1 className="font-semibold">{items[0].title}</h1>
                         </Card>
