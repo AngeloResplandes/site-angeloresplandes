@@ -51,11 +51,19 @@ body {
 
 h1 {
     font-family: var(--font-ibm-plex-mono), Arial;
-    color: #3178C6;
+    color: var(--muted-foreground);
 }
 
 p {
     font-family: var(--font-ibm-plex-sans), Arial;
+}
+
+.color-icons {
+    color: var(--muted-foreground);
+}
+
+.color-bar {
+    background-color: var(--muted-foreground);
 }
 
 :root {

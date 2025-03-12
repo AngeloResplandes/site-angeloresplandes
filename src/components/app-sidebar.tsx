@@ -1,4 +1,5 @@
 import { Home, Computer, Contact } from "lucide-react"
+import "@/assets/css/globals.css"
 
 import {
     Sidebar,
@@ -13,7 +14,7 @@ import {
 
 export const items = [
     {
-        title: "Home",
+        title: "Início",
         url: "/",
         icon: Home,
     },
@@ -41,7 +42,7 @@ export function AppSidebar() {
                                 <SidebarMenuItem key={item.title}>
                                     <SidebarMenuButton asChild>
                                         <a href={item.url}>
-                                            <item.icon color="#3178C6" />
+                                            <item.icon className="color-icons" />
                                             <span className="text-[16px]">{item.title}</span>
                                         </a>
                                     </SidebarMenuButton>
