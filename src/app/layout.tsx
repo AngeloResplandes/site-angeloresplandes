@@ -24,6 +24,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
     title: "Angelo Rodrigues",
     description: "",
+    icons: "/favicon.svg"
 }
 
 export default function RootLayout({
@@ -38,7 +39,7 @@ export default function RootLayout({
                     <AppSidebar />
                     <main className="w-[100vw] h-auto flex items-center">
                         <Card className="w-full flex flex-row-reverse justify-between items-center 
-                        fixed top-0 h-[60px] px-[16px] md:px-[50px] py-[0px] border-b z-50">
+                        fixed top-0 h-[60px] px-[16px] md:px-[100px] py-[0px] border-b z-50">
                             <nav className="hidden md:flex md:gap-7">
                                 <Link href="/" className="hover:underline">
                                     Início
@@ -54,7 +55,7 @@ export default function RootLayout({
                             <TextAnimated />
                         </Card>
                         <Card className="w-full mt-[60px] px-[16px] flex 
-                        justify-between md:flex-row md:items-center md:px-[50px]">
+                        justify-between md:flex-row md:items-center md:px-[100px]">
                             <CardHeader className="flex items-center p-0 md:mr-[60px]">
                                 <Avatar className="w-[85px] h-[85px] mb-[10px] 
                                 sm:w-[100px] sm:h-[100px] md:w-[200px] md:h-[200px] 

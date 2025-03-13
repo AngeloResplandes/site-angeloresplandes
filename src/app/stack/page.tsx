@@ -12,6 +12,7 @@ import {
     SiPython,
     SiSwift,
     SiTailwindcss,
+    SiShadcnui,
     SiZod,
     SiExpress,
     SiSequelize,
@@ -100,6 +101,12 @@ export default function Stack() {
                             <SiTailwindcss className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Tailwind CSS</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                            <SiShadcnui className="w-[33px] h-[33px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Shadcn/ui</PopoverContent>
                     </Popover>
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">

@@ -1,7 +1,6 @@
-"use client";
+"use client"
 
 import "@/assets/css/globals.css"
-
 import { useEffect, useState } from "react";
 
 type TypingTextProps = {

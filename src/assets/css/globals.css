@@ -49,21 +49,30 @@ body {
     font-family: var(--font-ibm-plex-mono), Arial;
 }
 
-h1 {
-    font-family: var(--font-ibm-plex-mono), Arial;
+h1,
+.color-icons,
+.label {
     color: var(--muted-foreground);
 }
 
-p {
+p,
+.input,
+.input::placeholder {
     font-family: var(--font-ibm-plex-sans), Arial;
-}
-
-.color-icons {
-    color: var(--muted-foreground);
 }
 
 .color-bar {
     background-color: var(--muted-foreground);
+}
+
+.input::placeholder {
+    color: #A9A9A9;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 :root {
