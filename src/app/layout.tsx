@@ -6,6 +6,7 @@ import { AppSidebar } from "@/components/app-sidebar"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import TextAnimated from "@/components/text-animated"
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import Link from "next/link"
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -64,9 +65,29 @@ export default function RootLayout({
                                 <CardTitle className="text-[20px] md:text-center">
                                     Ângelo Rodrigues
                                 </CardTitle>
-                                <CardDescription className="text-[16px] md:text-center">
+                                <CardDescription className="text-[16px] md:text-center mb-[5px]">
                                     Full Stack Developer
                                 </CardDescription>
+                                <div className="flex flex-wrap gap-6 mb-[20px] md:mb-0">
+                                    <a href="https://www.linkedin.com/in/%C3%A2ngelo-rodrigues-a60087247/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-[25px] h-[25px] flex justify-center items-center text-[#A9A9A9] hover:text-white">
+                                        <FaLinkedin className="w-[25px] h-[25px]" title="LinkedIn" />
+                                    </a>
+                                    <a href="https://www.instagram.com/angelorodriguesz_/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-[25px] h-[25px] flex justify-center items-center text-[#A9A9A9] hover:text-white">
+                                        <FaInstagram className="w-[25px] h-[25px]" title="Instagram" />
+                                    </a>
+                                    <a href="https://github.com/AngeloResplandes"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-[25px] h-[25px] flex justify-center items-center text-[#A9A9A9] hover:text-white">
+                                        <FaGithub className="w-[25px] h-[25px]" title="GitHub" />
+                                    </a>
+                                </div>
                             </CardHeader>
                             {children}
                         </Card>

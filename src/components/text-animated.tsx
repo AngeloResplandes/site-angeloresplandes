@@ -40,7 +40,7 @@ const TypingText: React.FC<TypingTextProps> = ({ text }) => {
 const TextAnimated: React.FC = () => {
     return (
         <div className="flex h-full justify-center items-center">
-            <TypingText text="Hello world!" />
+            <TypingText text="Hello World!" />
         </div>
     )
 }
