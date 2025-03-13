@@ -507,9 +507,11 @@ function SidebarMenuButton({
 } & VariantProps<typeof sidebarMenuButtonVariants>) {
     const Comp = asChild ? Slot : "button"
     const { isMobile, state } = useSidebar()
+    const context = React.useContext(SidebarContext)
 
     const button = (
         <Comp
+            onClick={() => context?.setOpenMobile(false)}
             data-slot="sidebar-menu-button"
             data-sidebar="menu-button"
             data-size={size}
