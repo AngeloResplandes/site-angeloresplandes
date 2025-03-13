@@ -1,6 +1,5 @@
 import { Home, Computer, Contact } from "lucide-react"
 import "@/assets/css/globals.css"
-
 import {
     Sidebar,
     SidebarContent,

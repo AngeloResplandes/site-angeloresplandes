@@ -18,7 +18,7 @@ const TypingText: React.FC<TypingTextProps> = ({ text }) => {
             const timeout = setTimeout(() => {
                 setDisplayedText((prev) => prev + text[index])
                 setIndex((prevIndex) => prevIndex + 1)
-            }, 100)
+            }, 150)
             return () => clearTimeout(timeout)
         } else {
             const cursorInterval = setInterval(() => {
