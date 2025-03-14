@@ -1,14 +1,14 @@
 import { CardContent, CardTitle } from "@/components/ui/card"
 import {
-    FaHtml5,
-    FaCss3Alt,
-    FaJs,
-    FaJava,
-    FaReact,
-    FaNodeJs
+    FaJava
 } from "react-icons/fa"
 import {
+    SiHtml5,
+    SiCss3,
+    SiJavascript,
     SiTypescript,
+    SiReact,
+    SiNodedotjs,
     SiPython,
     SiSwift,
     SiTailwindcss,
@@ -19,8 +19,16 @@ import {
     SiGit,
     SiMysql,
     SiSqlite,
-    SiMongodb
+    SiMongodb,
+    SiPostman,
+    SiFigma,
+    SiGooglechrome,
+    SiDbeaver,
+    SiXcode,
+    SiWarp,
+    SiLinux
 } from "react-icons/si"
+import { VscVscode } from "react-icons/vsc"
 import { TbBrandNextjs } from "react-icons/tb"
 import {
     Popover,
@@ -30,28 +38,28 @@ import {
 
 export default function Stack() {
     return (
-        <div className="w-full md:flex-col">
+        <div className="w-full md:flex-col md:pl-[290px]">
             <CardContent className="p-0">
                 <CardTitle className="text-[20px] mb-[15px]">Development Stack</CardTitle>
                 <h1 className="font-medium mb-[15px]">
                     Linguagens de Marcação/Programação
                 </h1>
-                <div className="flex mb-[15px] flex-wrap gap-4">
+                <div className="flex flex-wrap gap-4 mb-[15px]">
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
-                            <FaHtml5 className="w-[35px] h-[35px]" />
+                            <SiHtml5 className="w-[32px] h-[32px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">HTML5</PopoverContent>
                     </Popover>
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
-                            <FaCss3Alt className="w-[35px] h-[35px]" />
+                            <SiCss3 className="w-[32px] h-[32px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">CSS3</PopoverContent>
                     </Popover>
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
-                            <FaJs className="w-[35px] h-[35px]" />
+                            <SiJavascript className="w-[32px] h-[32px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">JavaScript</PopoverContent>
                     </Popover>
@@ -83,12 +91,12 @@ export default function Stack() {
                 <h1 className="font-medium mb-[15px]">
                     Bibliotecas, Frameworks e Tecnologias
                 </h1>
-                <div className="flex mb-[15px] flex-wrap gap-4">
+                <div className="flex flex-wrap gap-4 mb-[15px]">
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
-                            <FaReact className="w-[35px] h-[35px]" />
+                            <SiReact className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
-                        <PopoverContent className="w-full rounded-[7px]">React</PopoverContent>
+                        <PopoverContent className="w-full rounded-[7px]">ReactJS</PopoverContent>
                     </Popover>
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
@@ -100,7 +108,7 @@ export default function Stack() {
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiTailwindcss className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
-                        <PopoverContent className="w-full rounded-[7px]">Tailwind CSS</PopoverContent>
+                        <PopoverContent className="w-full rounded-[7px]">TailwindCSS</PopoverContent>
                     </Popover>
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
@@ -116,7 +124,7 @@ export default function Stack() {
                     </Popover>
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
-                            <FaNodeJs className="w-[35px] h-[35px]" />
+                            <SiNodedotjs className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Node.js</PopoverContent>
                     </Popover>
@@ -142,7 +150,7 @@ export default function Stack() {
                 <h1 className="font-medium mb-[15px]">
                     Banco de Dados
                 </h1>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-4 mb-[15px]">
                     <Popover>
                         <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiMysql className="w-[35px] h-[35px]" />
@@ -160,6 +168,59 @@ export default function Stack() {
                             <SiMongodb className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">MongoDB</PopoverContent>
+                    </Popover>
+                </div>
+                <h1 className="font-medium mb-[15px]">
+                    Apps e Softwares
+                </h1>
+                <div className="flex flex-wrap gap-4">
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <VscVscode className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Visual Studio Code</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <SiPostman className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Postman</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <SiFigma className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Figma</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <SiGooglechrome className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Google Chrome</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <SiDbeaver className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Dbeaver</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <SiXcode className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Xcode</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <SiWarp className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Warp</PopoverContent>
+                    </Popover>
+                    <Popover>
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                            <SiLinux className="w-[35px] h-[35px]" />
+                        </PopoverTrigger>
+                        <PopoverContent className="w-full rounded-[7px]">Linux</PopoverContent>
                     </Popover>
                 </div>
             </CardContent>

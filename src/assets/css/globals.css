@@ -75,6 +75,10 @@ input[type="number"]::-webkit-inner-spin-button {
     margin: 0;
 }
 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
 :root {
     --background: oklch(0.12 0.002 277);
     --foreground: oklch(1 0 0);

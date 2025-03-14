@@ -2,7 +2,7 @@ import { CardContent, CardTitle } from "@/components/ui/card"
 
 export default function Home() {
     return (
-        <div className="w-full md:flex-col">
+        <div className="w-full md:flex-col md:pl-[290px]">
             <CardContent className="p-0">
                 <CardTitle className="text-[20px] mb-[15px]">Sobre Mim</CardTitle>
                 <p className="text-[#A9A9A9] font-light mb-[15px] text-justify">
@@ -17,7 +17,7 @@ export default function Home() {
                     minhas habilidades.
                 </p>
                 <p className="text-[#A9A9A9] font-light mb-[15px] text-justify">
-                    Possuo experiência em JavaScript, TypeScript, React,
+                    Possuo experiência em JavaScript, TypeScript, ReactJS,
                     Node.js, gosto de trabalhar em projetos que desafiem
                     minha criatividade e habilidades técnicas.
                 </p>

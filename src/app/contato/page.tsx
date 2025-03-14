@@ -9,7 +9,6 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { CardContent, CardTitle } from "@/components/ui/card"
 import { sendContactForm } from "@/services/contact"
-import "@/assets/css/globals.css"
 
 const formSchema = z.object({
     name: z.string().min(2, "O nome precisa ter pelo menos 2 caracteres"),
@@ -33,7 +32,7 @@ export default function Contato() {
     }
 
     return (
-        <div className="w-full md:flex-col">
+        <div className="w-full md:flex-col md:pl-[290px]">
             <CardContent className="p-0">
                 <CardTitle className="text-[20px] mb-[15px] flex justify-center">Fale Comigo!</CardTitle>
                 <div className="flex justify-center">
