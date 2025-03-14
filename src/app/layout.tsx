@@ -20,7 +20,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-    title: "Angelo Rodrigues - Home",
+    title: "Angelo Rodrigues - Portifólio",
     description: "",
     icons: "/favicon.svg"
 }
