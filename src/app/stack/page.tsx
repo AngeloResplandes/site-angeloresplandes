@@ -38,43 +38,43 @@ export default function Stack() {
                 </h1>
                 <div className="flex mb-[15px] flex-wrap gap-4">
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <FaHtml5 className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">HTML5</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <FaCss3Alt className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">CSS3</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <FaJs className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">JavaScript</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiTypescript className="w-[33px] h-[33px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">TypeScript</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <FaJava className="w-[33px] h-[33px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Java</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiPython className="w-[33px] h-[33px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Python</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiSwift className="w-[33px] h-[33px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Swift</PopoverContent>
@@ -85,55 +85,55 @@ export default function Stack() {
                 </h1>
                 <div className="flex mb-[15px] flex-wrap gap-4">
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <FaReact className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">React</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <TbBrandNextjs className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Next.js</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiTailwindcss className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Tailwind CSS</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiShadcnui className="w-[33px] h-[33px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Shadcn/ui</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiZod className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Zod</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <FaNodeJs className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Node.js</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiExpress className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Express</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiSequelize className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Sequelize</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiGit className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">Git</PopoverContent>
@@ -144,19 +144,19 @@ export default function Stack() {
                 </h1>
                 <div className="flex flex-wrap gap-4">
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiMysql className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">MySQL</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiSqlite className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">SQLite</PopoverContent>
                     </Popover>
                     <Popover>
-                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] hover:border-[#007DFF] text-[#A9A9A9] hover:text-white cursor-pointer">
+                        <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
                             <SiMongodb className="w-[35px] h-[35px]" />
                         </PopoverTrigger>
                         <PopoverContent className="w-full rounded-[7px]">MongoDB</PopoverContent>
