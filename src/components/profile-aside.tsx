@@ -13,7 +13,7 @@ export default function ProfileAside() {
                 Ângelo Rodrigues
             </CardTitle>
             <CardDescription className="text-[16px] md:text-center mb-[5px]">
-                Full Stack Developer
+                Eng. Front End
             </CardDescription>
             <div className="flex flex-wrap gap-6 mb-[20px] md:mb-0">
                 <a href="https://www.linkedin.com/in/%C3%A2ngelo-rodrigues-a60087247/"
