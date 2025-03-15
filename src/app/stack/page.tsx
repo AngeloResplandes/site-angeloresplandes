@@ -36,7 +36,7 @@ import {
     PopoverContent,
     PopoverTrigger,
 } from "@/components/ui/popover"
-import AnimatedContent from '@/Animations/AnimatedContent/AnimatedContent'
+import AnimatedContent from "@/components/animations/animatedContent/AnimatedContent"
 
 export const metadata: Metadata = {
     title: "Angelo Rodrigues - Stack"

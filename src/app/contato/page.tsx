@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import AnimatedContent from '@/Animations/AnimatedContent/AnimatedContent'
+import AnimatedContent from "@/components/animations/animatedContent/AnimatedContent"
 import FormContact from "@/components/form-contact"
 
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { CardContent, CardTitle } from "@/components/ui/card"
-import AnimatedContent from '@/Animations/AnimatedContent/AnimatedContent'
+import AnimatedContent from "@/components/animations/animatedContent/AnimatedContent"
 
 export const metadata: Metadata = {
     title: "Angelo Rodrigues - Início"
