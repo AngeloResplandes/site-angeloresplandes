@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { CardContent, CardTitle } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+    title: "Angelo Rodrigues - Início",
+    description: "",
+    icons: "/favicon.ico"
+}
 
 export default function Home() {
     return (

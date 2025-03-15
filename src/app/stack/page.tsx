@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { CardContent, CardTitle } from "@/components/ui/card"
 import {
     FaJava
@@ -35,6 +36,12 @@ import {
     PopoverContent,
     PopoverTrigger,
 } from "@/components/ui/popover"
+
+export const metadata: Metadata = {
+    title: "Angelo Rodrigues - Stack",
+    description: "",
+    icons: "/favicon.ico"
+}
 
 export default function Stack() {
     return (
