@@ -4,7 +4,6 @@ import { AppSidebar } from "@/components/app-sidebar"
 import Header from "@/components/header"
 import { Card } from "@/components/ui/card"
 import ProfileAside from "@/components/profile-aside"
-import type { Metadata } from "next"
 import "@/assets/css/globals.css"
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -18,10 +17,6 @@ const ibmPlexMono = IBM_Plex_Mono({
     subsets: ["latin"],
     weight: ["100", "200", "300", "400", "500", "600", "700"]
 })
-
-export const metadata: Metadata = {
-    icons: "/favicon.ico",
-}
 
 export default function RootLayout({
     children,
