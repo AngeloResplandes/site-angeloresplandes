@@ -13,6 +13,9 @@ export default function Header() {
                 <Link href="/stack" className="hover:underline">
                     Stack
                 </Link>
+                <Link href="/certificacoes" className="hover:underline">
+                    Certificações
+                </Link>
                 <Link href="/contato" className="hover:underline">
                     Contato
                 </Link>

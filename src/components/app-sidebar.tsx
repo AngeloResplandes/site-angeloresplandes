@@ -1,4 +1,4 @@
-import { Home, Computer, Contact } from "lucide-react"
+import { Home, Computer, GraduationCap, Contact } from "lucide-react"
 import "@/assets/css/globals.css"
 import {
     Sidebar,
@@ -22,6 +22,11 @@ export const items = [
         title: "Stack",
         url: "/stack",
         icon: Computer,
+    },
+    {
+        title: "Cerificações",
+        url: "/certificacoes",
+        icon: GraduationCap,
     },
     {
         title: "Contato",
