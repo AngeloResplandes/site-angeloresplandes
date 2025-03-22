@@ -90,7 +90,7 @@ export default function FormContact() {
                             )}
                         />
                         <div className="flex justify-center">
-                            <Button className="w-[100px] rounded-[7px] cursor-pointer" type="submit">Enviar</Button>
+                            <Button className="w-[100px] rounded-[7px] cursor-pointer transition-all duration-300 hover:opacity-80 hover:bg-gradient-to-b" type="submit">Enviar</Button>
                         </div>
                     </form>
                 </Form>

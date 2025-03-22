@@ -23,7 +23,7 @@ import {
     SiMongodb,
     SiPostman,
     SiFigma,
-    SiGooglechrome,
+    SiBrave,
     SiDbeaver,
     SiXcode,
     SiWarp,
@@ -141,8 +141,8 @@ export const itemsTools = [
         content: "Figma"
     },
     {
-        icon: SiGooglechrome,
-        content: "Google Chrome"
+        icon: SiBrave,
+        content: "Brave"
     },
     {
         icon: SiDbeaver,
@@ -186,7 +186,12 @@ export default function Stack() {
                     <div className="flex flex-wrap gap-4 mb-[15px]">
                         {itemsProgramming.map((item) => (
                             <Popover key={item.content}>
-                                <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                                <PopoverTrigger className="w-[50px] h-[50px] 
+                                flex justify-center items-center border 
+                                rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] 
+                                hover:text-white active:text-white 
+                                active:border-[#007DFF] cursor-pointer 
+                                transition-all duration-300 hover:bg-gradient-to-b">
                                     <item.icon className="w-[32px] h-[32px]" />
                                 </PopoverTrigger>
                                 <PopoverContent className="w-full rounded-[7px]">{item.content}</PopoverContent>
@@ -201,7 +206,11 @@ export default function Stack() {
                     <div className="flex flex-wrap gap-4 mb-[15px]">
                         {itemsFrameworks.map((item) => (
                             <Popover key={item.content}>
-                                <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                                <PopoverTrigger className="w-[50px] h-[50px] 
+                                flex justify-center items-center border rounded-[7px] 
+                                text-[#A9A9A9] hover:border-[#007DFF] 
+                                hover:text-white active:text-white active:border-[#007DFF] 
+                                cursor-pointer transition-all duration-300 hover:bg-gradient-to-b">
                                     <item.icon className="w-[35px] h-[35px]" />
                                 </PopoverTrigger>
                                 <PopoverContent className="w-full rounded-[7px]">{item.content}</PopoverContent>
@@ -216,7 +225,11 @@ export default function Stack() {
                     <div className="flex flex-wrap gap-4 mb-[15px]">
                         {itemsDatabases.map((item) => (
                             <Popover key={item.content}>
-                                <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                                <PopoverTrigger className="w-[50px] h-[50px] 
+                                flex justify-center items-center border 
+                                rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] 
+                                hover:text-white active:text-white active:border-[#007DFF] 
+                                cursor-pointer transition-all duration-300 hover:bg-gradient-to-b">
                                     <item.icon className="w-[35px] h-[35px]" />
                                 </PopoverTrigger>
                                 <PopoverContent className="w-full rounded-[7px]">{item.content}</PopoverContent>
@@ -231,7 +244,11 @@ export default function Stack() {
                     <div className="flex flex-wrap gap-4">
                         {itemsTools.map((item) => (
                             <Popover key={item.content}>
-                                <PopoverTrigger className="w-[50px] h-[50px] flex justify-center items-center border rounded-[7px] text-[#A9A9A9] hover:border-[#007DFF] hover:text-white active:text-white active:border-[#007DFF] cursor-pointer">
+                                <PopoverTrigger className="w-[50px] h-[50px] 
+                                flex justify-center items-center border rounded-[7px] 
+                                text-[#A9A9A9] hover:border-[#007DFF] hover:text-white 
+                                active:text-white active:border-[#007DFF] 
+                                cursor-pointer transition-all duration-300 hover:bg-gradient-to-b">
                                     <item.icon className="w-[35px] h-[35px]" />
                                 </PopoverTrigger>
                                 <PopoverContent className="w-full rounded-[7px]">{item.content}</PopoverContent>

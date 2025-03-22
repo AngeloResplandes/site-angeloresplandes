@@ -46,7 +46,7 @@ export function AppSidebar() {
                             {items.map((item) => (
                                 <SidebarMenuItem key={item.title}>
                                     <SidebarMenuButton asChild>
-                                        <Link href={item.url}>
+                                        <Link className="transition-all duration-300 hover:bg-gradient-to-b" href={item.url}>
                                             <item.icon className="color-icons" />
                                             <span className="text-[16px]">{item.title}</span>
                                         </Link>
