@@ -11,7 +11,6 @@ export default function Home() {
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
             <AnimatedContent
                 distance={100}
-                direction="vertical"
                 reverse={false}
                 initialOpacity={0.2}
                 animateOpacity
@@ -32,7 +31,7 @@ export default function Home() {
                         minhas habilidades.
                     </p>
                     <p className="text-[#A9A9A9] font-light mb-[15px] text-justify">
-                        Possuo experiência em JavaScript, TypeScript, ReactJS,
+                        Possuo experiência em JavaScript, TypeScript, React,
                         Node.js, gosto de trabalhar em projetos que desafiem
                         minha criatividade e habilidades técnicas.
                     </p>

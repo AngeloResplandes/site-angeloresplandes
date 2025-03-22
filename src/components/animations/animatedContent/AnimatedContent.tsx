@@ -19,7 +19,7 @@ interface AnimatedContentProps {
 const AnimatedContent: React.FC<AnimatedContentProps> = ({
     children,
     distance = 150,
-    direction = "vertical",
+    direction = "horizontal",
     reverse = false,
     config = { tension: 50, friction: 10 },
     initialOpacity = 0,

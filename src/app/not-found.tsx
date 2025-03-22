@@ -12,7 +12,6 @@ export default function NotFound() {
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
             <AnimatedContent
                 distance={100}
-                direction="vertical"
                 reverse={false}
                 initialOpacity={0.2}
                 animateOpacity

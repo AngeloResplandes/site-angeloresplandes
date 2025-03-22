@@ -10,28 +10,38 @@ export const metadata: Metadata = {
 
 export const itemsCertifications = [
     {
-        title: "HTML5 e CSS3",
-        description: "Certificação de HTML5 e CSS3",
+        title: "HTML5 e CSS3 - 92 Horas",
+        description: "B7Web",
+        code: "8981311",
+        date: "08/2024",
         link: "https://alunos.b7web.com.br/media/certificates/certificado_8981311.jpg"
     },
     {
-        title: "Javascript",
-        description: "Certificação de Javascript",
+        title: "Javascript - 66 Horas",
+        description: "B7Web",
+        code: "4002557",
+        date: "03/2025",
         link: "https://alunos.b7web.com.br/media/certificates/certificado_4002557.jpg"
     },
     {
-        title: "TailwindCSS",
-        description: "Certificação de TailwindCSS",
+        title: "TailwindCSS - 20 Horas",
+        description: "B7Web",
+        code: "7842844",
+        date: "03/2025",
         link: "https://alunos.b7web.com.br/media/certificates/certificado_7842844.jpg"
     },
     {
-        title: "Typescript",
-        description: "Certificação de Typescript",
+        title: "Typescript - 20 Horas",
+        description: "B7Web",
+        code: "5166645",
+        date: "03/2025",
         link: "https://alunos.b7web.com.br/media/certificates/certificado_5166645.jpg"
     },
     {
-        title: "Banco de Dados",
-        description: "Certificação de Banco de Dados SQL",
+        title: "Banco de Dados - 20 Horas",
+        description: "B7Web",
+        code: "1533629",
+        date: "09/2024",
         link: "https://alunos.b7web.com.br/media/certificates/certificado_1533629.jpg"
     }
 
@@ -42,7 +52,6 @@ export default function Home() {
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
             <AnimatedContent
                 distance={100}
-                direction="vertical"
                 reverse={false}
                 initialOpacity={0.2}
                 animateOpacity
@@ -59,7 +68,9 @@ export default function Home() {
                                 cursor-pointer transition-all duration-300 hover:bg-gradient-to-b
                                 hover:bg-[#181818] active:bg-[#181818]">
                                     <h1 className="text-[16px] font-bold">{item.title}</h1>
-                                    <p className="text-[#A9A9A9] text-[14px] font-light ">{item.description}</p>
+                                    <p className="text-[#A9A9A9] text-[14px] font-light ">Curso: {item.description}</p>
+                                    <p className="text-[#A9A9A9] text-[14px] font-light ">Código: {item.code}</p>
+                                    <p className="text-[#A9A9A9] text-[14px] font-light ">Data: {item.date}</p>
                                 </Button>
                             </Link>
                         ))}
