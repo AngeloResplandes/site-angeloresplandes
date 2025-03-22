@@ -42,127 +42,127 @@ export const metadata: Metadata = {
     title: "Angelo Rodrigues - Stack"
 }
 
-export const itemsProgramming = [
-    {
-        icon: SiHtml5,
-        content: "HTML5"
-    },
-    {
-        icon: SiCss3,
-        content: "CSS3"
-    },
-    {
-        icon: SiJavascript,
-        content: "JavaScript"
-    },
-    {
-        icon: SiTypescript,
-        content: "TypeScript"
-    },
-    {
-        icon: FaJava,
-        content: "Java"
-    },
-    {
-        icon: SiPython,
-        content: "Python"
-    },
-    {
-        icon: SiSwift,
-        content: "Swift"
-    }
-]
-
-export const itemsFrameworks = [
-    {
-        icon: SiReact,
-        content: "React"
-    },
-    {
-        icon: TbBrandNextjs,
-        content: "NextJS"
-    },
-    {
-        icon: SiTailwindcss,
-        content: "TailwindCSS"
-    },
-    {
-        icon: SiShadcnui,
-        content: "Shadcn/ui"
-    },
-    {
-        icon: SiZod,
-        content: "Zod"
-    },
-    {
-        icon: SiNodedotjs,
-        content: "Node.js"
-    },
-    {
-        icon: SiExpress,
-        content: "Express"
-    },
-    {
-        icon: SiSequelize,
-        content: "Sequelize"
-    },
-    {
-        icon: SiGit,
-        content: "Git"
-    }
-]
-
-export const itemsDatabases = [
-    {
-        icon: SiMysql,
-        content: "MySQL"
-    },
-    {
-        icon: SiSqlite,
-        content: "SQLite"
-    },
-    {
-        icon: SiMongodb,
-        content: "MongoDB"
-    }
-]
-
-export const itemsTools = [
-    {
-        icon: VscVscode,
-        content: "Visual Studio Code"
-    },
-    {
-        icon: SiPostman,
-        content: "Postman"
-    },
-    {
-        icon: SiFigma,
-        content: "Figma"
-    },
-    {
-        icon: SiBrave,
-        content: "Brave"
-    },
-    {
-        icon: SiDbeaver,
-        content: "Dbeaver"
-    },
-    {
-        icon: SiXcode,
-        content: "Xcode"
-    },
-    {
-        icon: SiWarp,
-        content: "Warp"
-    },
-    {
-        icon: SiLinux,
-        content: "Linux"
-    }
-]
-
 export default function Stack() {
+    const itemsProgramming = [
+        {
+            icon: SiHtml5,
+            content: "HTML5"
+        },
+        {
+            icon: SiCss3,
+            content: "CSS3"
+        },
+        {
+            icon: SiJavascript,
+            content: "JavaScript"
+        },
+        {
+            icon: SiTypescript,
+            content: "TypeScript"
+        },
+        {
+            icon: FaJava,
+            content: "Java"
+        },
+        {
+            icon: SiPython,
+            content: "Python"
+        },
+        {
+            icon: SiSwift,
+            content: "Swift"
+        }
+    ]
+
+    const itemsFrameworks = [
+        {
+            icon: SiReact,
+            content: "React"
+        },
+        {
+            icon: TbBrandNextjs,
+            content: "NextJS"
+        },
+        {
+            icon: SiTailwindcss,
+            content: "TailwindCSS"
+        },
+        {
+            icon: SiShadcnui,
+            content: "Shadcn/ui"
+        },
+        {
+            icon: SiZod,
+            content: "Zod"
+        },
+        {
+            icon: SiNodedotjs,
+            content: "Node.js"
+        },
+        {
+            icon: SiExpress,
+            content: "Express"
+        },
+        {
+            icon: SiSequelize,
+            content: "Sequelize"
+        },
+        {
+            icon: SiGit,
+            content: "Git"
+        }
+    ]
+
+    const itemsDatabases = [
+        {
+            icon: SiMysql,
+            content: "MySQL"
+        },
+        {
+            icon: SiSqlite,
+            content: "SQLite"
+        },
+        {
+            icon: SiMongodb,
+            content: "MongoDB"
+        }
+    ]
+
+    const itemsTools = [
+        {
+            icon: VscVscode,
+            content: "Visual Studio Code"
+        },
+        {
+            icon: SiPostman,
+            content: "Postman"
+        },
+        {
+            icon: SiFigma,
+            content: "Figma"
+        },
+        {
+            icon: SiBrave,
+            content: "Brave"
+        },
+        {
+            icon: SiDbeaver,
+            content: "Dbeaver"
+        },
+        {
+            icon: SiXcode,
+            content: "Xcode"
+        },
+        {
+            icon: SiWarp,
+            content: "Warp"
+        },
+        {
+            icon: SiLinux,
+            content: "Linux"
+        }
+    ]
+
     return (
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
             <AnimatedContent

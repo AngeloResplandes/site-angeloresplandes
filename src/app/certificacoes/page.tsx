@@ -8,46 +8,45 @@ export const metadata: Metadata = {
     title: "Angelo Rodrigues - Certificações"
 }
 
-export const itemsCertifications = [
-    {
-        title: "HTML5 e CSS3 - 92 Horas",
-        description: "B7Web",
-        code: "8981311",
-        date: "08/2024",
-        link: "https://alunos.b7web.com.br/media/certificates/certificado_8981311.jpg"
-    },
-    {
-        title: "Javascript - 66 Horas",
-        description: "B7Web",
-        code: "4002557",
-        date: "03/2025",
-        link: "https://alunos.b7web.com.br/media/certificates/certificado_4002557.jpg"
-    },
-    {
-        title: "TailwindCSS - 20 Horas",
-        description: "B7Web",
-        code: "7842844",
-        date: "03/2025",
-        link: "https://alunos.b7web.com.br/media/certificates/certificado_7842844.jpg"
-    },
-    {
-        title: "Typescript - 20 Horas",
-        description: "B7Web",
-        code: "5166645",
-        date: "03/2025",
-        link: "https://alunos.b7web.com.br/media/certificates/certificado_5166645.jpg"
-    },
-    {
-        title: "Banco de Dados - 20 Horas",
-        description: "B7Web",
-        code: "1533629",
-        date: "09/2024",
-        link: "https://alunos.b7web.com.br/media/certificates/certificado_1533629.jpg"
-    }
-
-]
-
 export default function Home() {
+    const itemsCertifications = [
+        {
+            title: "HTML5 e CSS3 - 92 Horas",
+            description: "B7Web",
+            code: "8981311",
+            date: "08/2024",
+            link: "https://alunos.b7web.com.br/media/certificates/certificado_8981311.jpg"
+        },
+        {
+            title: "Javascript - 66 Horas",
+            description: "B7Web",
+            code: "4002557",
+            date: "03/2025",
+            link: "https://alunos.b7web.com.br/media/certificates/certificado_4002557.jpg"
+        },
+        {
+            title: "TailwindCSS - 20 Horas",
+            description: "B7Web",
+            code: "7842844",
+            date: "03/2025",
+            link: "https://alunos.b7web.com.br/media/certificates/certificado_7842844.jpg"
+        },
+        {
+            title: "Typescript - 20 Horas",
+            description: "B7Web",
+            code: "5166645",
+            date: "03/2025",
+            link: "https://alunos.b7web.com.br/media/certificates/certificado_5166645.jpg"
+        },
+        {
+            title: "Banco de Dados - 20 Horas",
+            description: "B7Web",
+            code: "1533629",
+            date: "09/2024",
+            link: "https://alunos.b7web.com.br/media/certificates/certificado_1533629.jpg"
+        }
+    ]
+
     return (
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
             <AnimatedContent
