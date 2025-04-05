@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-    title: "Angelo Rodrigues - Certificações"
+    title: "Certificações - Ângelo Resplandes"
 }
 
 export default function Home() {

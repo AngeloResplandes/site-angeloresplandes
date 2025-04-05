@@ -1,9 +1,9 @@
 import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google"
 import { SidebarProvider } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
-import Header from "@/components/header"
+import { Header } from "@/components/header"
 import { Card } from "@/components/ui/card"
-import ProfileAside from "@/components/profile-aside"
+import { ProfileAside } from "@/components/profile-aside"
 import "@/assets/css/globals.css"
 
 const ibmPlexSans = IBM_Plex_Sans({

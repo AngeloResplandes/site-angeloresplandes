@@ -39,7 +39,7 @@ import {
 import AnimatedContent from "@/components/animations/animatedContent/AnimatedContent"
 
 export const metadata: Metadata = {
-    title: "Angelo Rodrigues - Stack"
+    title: "Stack | Ângelo Resplandes"
 }
 
 export default function Stack() {

@@ -3,7 +3,7 @@ import { CardContent, CardTitle } from "@/components/ui/card"
 import AnimatedContent from "@/components/animations/animatedContent/AnimatedContent"
 
 export const metadata: Metadata = {
-    title: "Angelo Rodrigues - Início"
+    title: "Início | Ângelo Resplandes"
 }
 
 export default function Home() {
