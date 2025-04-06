@@ -37,25 +37,18 @@ export default function Contato() {
 
     return (
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
-            <AnimatedContent
-                distance={100}
-                reverse={false}
-                initialOpacity={0.2}
-                animateOpacity
-                scale={1.0}
-                threshold={0.1}
-            >
+            <AnimatedContent>
                 <CardContent className="p-0">
                     <CardTitle className="text-[20px] mb-[15px]">
                         Fale Comigo!
                     </CardTitle>
-                    <h1 className="font-medium">
+                    <h1 className="font-medium mb-[15px]">
                         Ficou com alguma dúvida, quer compartilhar uma ideia ou precisa de um orçamento?
                     </h1>
                     <h1 className="font-medium mb-[15px]">
                         Estou aqui pra ajudar 😎
                     </h1>
-                    <div className="flex flex-wrap gap-4 mb-[15px]">
+                    <div className="flex flex-wrap gap-4">
                         {itemsContact.map((item) => (
                             <div key={item.content}>
                                 <a href={item.url}

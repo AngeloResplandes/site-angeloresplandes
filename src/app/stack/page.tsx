@@ -165,14 +165,7 @@ export default function Stack() {
 
     return (
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
-            <AnimatedContent
-                distance={100}
-                reverse={false}
-                initialOpacity={0.2}
-                animateOpacity
-                scale={1.0}
-                threshold={0.1}
-            >
+            <AnimatedContent>
                 <CardContent className="p-0">
                     <CardTitle className="text-[20px] mb-[15px]">
                         Development Stack

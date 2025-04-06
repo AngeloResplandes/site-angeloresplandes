@@ -30,7 +30,8 @@ export default function RootLayout({
                     <AppSidebar />
                     <main className="w-[100vw] h-auto flex items-center">
                         <Header />
-                        <Card className="w-full pt-[80px] pb-[50px] px-[16px] flex justify-between md:flex-row md:items-center md:px-[100px]">
+                        <Card className="w-full pt-[80px] pb-[50px] px-[16px] 
+                        flex justify-between md:flex-row md:items-center md:px-[100px]">
                             <div className="md:fixed md:top-1/4">
                                 <ProfileAside />
                             </div>

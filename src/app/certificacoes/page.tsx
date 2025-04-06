@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Certificações - Ângelo Resplandes"
 }
 
-export default function Home() {
+export default function Certificacoes() {
     const itemsCertifications = [
         {
             title: "HTML5 e CSS3 - 92 Horas",
@@ -49,17 +49,11 @@ export default function Home() {
 
     return (
         <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
-            <AnimatedContent
-                distance={100}
-                reverse={false}
-                initialOpacity={0.2}
-                animateOpacity
-                scale={1.0}
-                threshold={0.1}
-            >
+            <AnimatedContent>
                 <CardContent className="p-0">
                     <CardTitle className="text-[20px] mb-[15px]">Minhas Certificações</CardTitle>
-                    <div className="flex flex-col gap-4 mb-[15px]">
+                    <div className="flex flex-col gap-4 sm:flex-wrap sm:grid sm:grid-cols-2
+                    md:flex md:flex-col lg:flex-wrap lg:grid lg:grid-cols-2">
                         {itemsCertifications.map((item) => (
                             <Link href={item.link} target="_blank" key={item.title}>
                                 <Button className="w-full h-full bg-[--color-background] 

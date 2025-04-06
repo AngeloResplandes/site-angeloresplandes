@@ -7,12 +7,15 @@ export function Header() {
     return (
         <Card className="w-full flex flex-row-reverse justify-between items-center 
         fixed top-0 h-[60px] px-[16px] md:px-[100px] py-[0px] border-b z-50">
-            <nav className="hidden md:flex md:gap-7">
+            <nav className="hidden md:flex md:gap-7 md:text-[12px] lg:text-[16px]">
                 <Link href="/" className="hover:underline">
                     Início
                 </Link>
                 <Link href="/stack" className="hover:underline">
                     Stack
+                </Link>
+                <Link href="/projetos" className="hover:underline">
+                    Projetos
                 </Link>
                 <Link href="/certificacoes" className="hover:underline">
                     Certificações

@@ -1,7 +1,7 @@
 "use client"
 
 import "@/assets/css/globals.css"
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 
 type TypingTextProps = {
     text: string
@@ -28,18 +28,35 @@ const TypingText: React.FC<TypingTextProps> = ({ text }) => {
     }, [index, text])
 
     return (
-        <h1 className="text-xl font-mono font-medium flex items-center">
+        <h1 className="text-[20px] md:text-[16px] lg:text-[20px] font-mono font-medium flex items-center">
             {displayedText}
-            <span className={`inline-block w-2 h-6 ml-1 color-bar
-                ${showCursor ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500`}></span>
+            <span
+                className={`inline-block w-2 h-6 ml-1 color-bar ${showCursor ? "opacity-100" : "opacity-0"
+                    } transition-opacity duration-500`}
+            ></span>
         </h1>
     )
 }
 
 const TextAnimated: React.FC = () => {
+    const messages = [
+        "Hello, World!",
+        "Bem-vindo!!!",
+        "let num = 10;",
+        "let bool = true;",
+        "let list = [...];",
+        "message: '...'",
+        "console.log('...')",
+    ]
+
+    const [randomText] = useState(() => {
+        const randomIndex = Math.floor(Math.random() * messages.length)
+        return messages[randomIndex]
+    })
+
     return (
         <div className="flex h-full justify-center items-center">
-            <TypingText text="Hello, World!" />
+            <TypingText text={randomText} />
         </div>
     )
 }
