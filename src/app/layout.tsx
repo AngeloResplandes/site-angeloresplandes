@@ -4,6 +4,7 @@ import { AppSidebar } from "@/components/app-sidebar"
 import { Header } from "@/components/header"
 import { Card } from "@/components/ui/card"
 import { ProfileAside } from "@/components/profile-aside"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "@/assets/css/globals.css"
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -39,6 +40,7 @@ export default function RootLayout({
                         </Card>
                     </main>
                 </SidebarProvider>
+                <SpeedInsights />
             </body>
         </html>
     )
