@@ -1,4 +1,4 @@
-import { Home, Computer, FilePenLine, GraduationCap, Contact } from "lucide-react"
+import { Home, Computer, FilePen, GraduationCap, Contact } from "lucide-react"
 import "@/assets/css/globals.css"
 import {
     Sidebar,
@@ -26,7 +26,7 @@ export const items = [
     {
         title: "Projetos",
         url: "/projetos",
-        icon: FilePenLine,
+        icon: FilePen,
     },
     {
         title: "Cerificações",

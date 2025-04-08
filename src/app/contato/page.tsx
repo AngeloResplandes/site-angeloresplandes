@@ -8,7 +8,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin, FaInstagram } from "react-icons/fa"
 
 export const metadata: Metadata = {
-    title: "Contato - Ângelo Resplandes"
+    title: "Contato | Ângelo Resplandes"
 }
 
 export default function Contato() {
