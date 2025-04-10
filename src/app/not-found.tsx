@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
     return (
-        <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
+        <div className="w-full overflow-hidden md:pl-[290px]">
             <AnimatedContent
                 distance={100}
                 reverse={false}

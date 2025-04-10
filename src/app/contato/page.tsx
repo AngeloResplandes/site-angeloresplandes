@@ -36,7 +36,7 @@ export default function Contato() {
     ]
 
     return (
-        <div className="w-full overflow-hidden md:flex-col md:pl-[290px]">
+        <div className="w-full overflow-hidden md:pl-[290px]">
             <AnimatedContent>
                 <CardContent className="p-0">
                     <CardTitle className="text-[20px] mb-[15px]">
